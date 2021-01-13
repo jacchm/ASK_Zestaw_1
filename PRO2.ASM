@@ -4,7 +4,7 @@ assume cs:program
 
 start:
         mov cx, 0Ah
-        mov dl,'A'
+        mov dl, 'A'
 
 print:
         mov ah, 02h     ; display character
